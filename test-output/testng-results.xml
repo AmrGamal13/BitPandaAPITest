@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6545" started-at="2021-07-14T22:32:55Z" finished-at="2021-07-14T22:33:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6545" started-at="2021-07-14T22:32:55Z" finished-at="2021-07-14T22:33:01Z">
+      <class name="BitPandaAPIs.PostCreateUser">
+        <test-method status="PASS" signature="TestDemo()[pri:0, instance:BitPandaAPIs.PostCreateUser@11dc3715]" name="TestDemo" is-config="true" duration-ms="404" started-at="2021-07-14T22:32:55Z" finished-at="2021-07-14T22:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDemo -->
+        <test-method status="PASS" signature="CreateUserAPI()[pri:1, instance:BitPandaAPIs.PostCreateUser@11dc3715]" name="CreateUserAPI" duration-ms="1800" started-at="2021-07-14T22:32:55Z" description="Create a user using new username" finished-at="2021-07-14T22:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateUserAPI -->
+        <test-method status="PASS" signature="getUserInfobyUserName()[pri:2, instance:BitPandaAPIs.PostCreateUser@11dc3715]" name="getUserInfobyUserName" duration-ms="1253" started-at="2021-07-14T22:32:57Z" description="Retrieve the user information by the username" finished-at="2021-07-14T22:32:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfobyUserName -->
+        <test-method status="PASS" signature="UpdateUserInfobyUserName()[pri:3, instance:BitPandaAPIs.PostCreateUser@11dc3715]" name="UpdateUserInfobyUserName" duration-ms="708" started-at="2021-07-14T22:32:58Z" description="Update the user info by the username" finished-at="2021-07-14T22:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUserInfobyUserName -->
+        <test-method status="PASS" signature="DeleteUserbyUserName()[pri:4, instance:BitPandaAPIs.PostCreateUser@11dc3715]" name="DeleteUserbyUserName" duration-ms="672" started-at="2021-07-14T22:32:59Z" description="Delete the user by the username" finished-at="2021-07-14T22:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUserbyUserName -->
+        <test-method status="PASS" signature="DeleteUserbyUserNameNotExist()[pri:5, instance:BitPandaAPIs.PostCreateUser@11dc3715]" name="DeleteUserbyUserNameNotExist" duration-ms="683" started-at="2021-07-14T22:33:00Z" description="Delete a user by username doesn&#039;t exist" finished-at="2021-07-14T22:33:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUserbyUserNameNotExist -->
+        <test-method status="PASS" signature="getUserInfobyNotExistUserName()[pri:6, instance:BitPandaAPIs.PostCreateUser@11dc3715]" name="getUserInfobyNotExistUserName" duration-ms="864" started-at="2021-07-14T22:33:00Z" description="Retrieve the user information by not exist username" finished-at="2021-07-14T22:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserInfobyNotExistUserName -->
+      </class> <!-- BitPandaAPIs.PostCreateUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
